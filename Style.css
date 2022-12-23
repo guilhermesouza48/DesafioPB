@@ -22,4 +22,12 @@ h1 {
 h2 {
     font-style: bold;
 }
-
+a {
+    margin: 10px;
+}
+button { 
+    background-color: var(--botoes);
+    border: #FFFFFF;
+    border-radius: 35px;
+    padding: 10px 15px;
+}

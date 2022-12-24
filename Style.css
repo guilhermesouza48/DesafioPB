@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -7,27 +6,57 @@
 }
 
 :root {
-    --texto : #000000;
-    --botoes : #3EB25E;
-    --texto-botoes : #FFFFFF;
-    --marcadores : #3eb25e 30%;
-    --texto-input : #000000 25%;
+    --texto: #000000;
+    --botoes: #3EB25E;
+    --texto-botoes: #FFFFFF;
+    --marcadores: #3eb25e 30%;
+    --texto-input: #000000 25%;
+    --hover : #FFFF7D;
 }
 
-h1 { 
-    font-size: 110px;
-    font-style: Bold;
+
+h1 {
+    font-size: 140px;
 }
 
-h2 {
-    font-style: bold;
-}
 a {
     margin: 10px;
 }
-button { 
+
+button {
     background-color: var(--botoes);
     border: #FFFFFF;
     border-radius: 35px;
-    padding: 10px 15px;
+    padding: 5px 70px;
+    color: var(--texto-botoes);
+}
+
+button:hover {
+    background-color: var(--hover);
+    color: var(--texto)
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    margin-left: 85px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    
+}
+
+.container h2 {
+    margin-top: 25px;
+}
+
+.container button {
+    margin-top: 70px;
 }

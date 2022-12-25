@@ -1,0 +1,27 @@
+@media screen and (max-width:480px) {
+    body {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 53px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    img {
+        height: 450px;
+        margin-right: 100px;
+    }
+
+    .container {
+        margin-left: 0;
+    }
+
+    .container button {
+        margin-top: 40px;
+    }
+    
+}

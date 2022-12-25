@@ -14,13 +14,6 @@
     --hover : #FFFF7D;
 }
 
-h1 {
-    font-size: 111px;
-}
-
-h2 {
-    font-size: 29px;
-}
 
 button {
     background-color: var(--botoes);
@@ -46,18 +39,10 @@ body {
 }
 
 .container {
-    margin-left: 85px;
     display: flex;
     align-items: center;
     flex-direction: column; 
     justify-content: center;
-    
 }
 
-.container h2 {
-    margin-top: 25px;
-}
 
-.container button {
-    margin-top: 70px;
-}

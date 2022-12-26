@@ -63,7 +63,7 @@ label {
     line-height: 2;
 }
 
-input[type="radio"] {
+input[type="checkbox"] {
     -webkit-appearance: none;
     appearance: none;
     background-color: #3EB25E;
@@ -75,7 +75,7 @@ input[type="radio"] {
     border: 0;
 }
 
-input[type="radio"]:checked {
+input[type="checkbox"]:checked {
     opacity: 1;
 }
 

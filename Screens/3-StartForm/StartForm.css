@@ -1,0 +1,100 @@
+.container {
+    flex-direction: column;
+}
+
+.InputRadio {
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+option {
+    font: 800;
+}
+
+
+select {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    display: inline-block;
+    line-height: 1.5em;
+    width: 460px;
+    height: 50px;
+    font: inherit;
+    margin-top: 20px;
+    padding-left: 60px ;
+}
+
+select.select-option {
+    background-image: url(/Images/Setinha.png);
+    background-position: 20px 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+select.select-option:focus {
+    background-image: url(/Images/Setinha.png);
+    background-position: 20px 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    border-color: #475242;
+    outline: 0;
+  }
+
+
+
+h2 {
+    margin-top: 35px;
+}
+
+img {
+    height: 60vh;
+    width: 35vw;
+    margin-right: 100px;
+}
+
+label {
+    font-size: 800;
+    line-height: 2;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #3EB25E;
+    opacity: 0.5;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0;
+}
+
+input[type="radio"]:checked {
+    opacity: 1;
+}
+
+.btn-back {
+    margin-right: 20px;
+}
+
+.btn-skip button {
+    width: 425px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+.btn {
+    margin-top: 25px;
+}
+
+@media screen and (max-width:480px) {
+    body {
+        flex-direction: column;
+    }
+}

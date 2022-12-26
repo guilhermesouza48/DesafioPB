@@ -1,0 +1,46 @@
+.btn-submit button {
+    margin-top: 15px;
+    width: 425px;
+    height: 35px;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.btn button{
+    width: 425px;
+    height: 35px;
+    margin-top: 50px;
+}
+
+input {
+    width: 460px;
+    height: 55px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 27px;
+}
+
+input[type="number"] {
+    appearance: none;
+    width: 10vw;
+}
+
+
+
+img {
+    margin-right: 50px;
+    height: 60vh;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-widht:480px) {
+    input {
+        border: #475242;
+    }
+}

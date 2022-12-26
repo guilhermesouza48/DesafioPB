@@ -101,6 +101,7 @@ input[type="radio"]:checked {
         justify-content: center;
         display: flex;
         align-items: center;
+        height: 400px;
     }
 
     .btn-skip button {
@@ -135,12 +136,12 @@ input[type="radio"]:checked {
     }
 
     select.select-option {
-        background-position: 15px 15px;
+        background-position: 10px 10px;
         background-size: 10px;
     }
 
     select.select-option:focus {
-        background-position: 15px 15px;
+        background-position: 10px 10px;
         background-size: 10px;
     }
 

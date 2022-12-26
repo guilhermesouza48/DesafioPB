@@ -27,7 +27,7 @@ select {
     height: 50px;
     font: inherit;
     margin-top: 20px;
-    padding-left: 60px ;
+    padding-left: 60px;
 }
 
 select.select-option {
@@ -44,7 +44,7 @@ select.select-option:focus {
     background-repeat: no-repeat;
     border-color: #475242;
     outline: 0;
-  }
+}
 
 
 
@@ -96,5 +96,63 @@ input[type="checkbox"]:checked {
 @media screen and (max-width:480px) {
     body {
         flex-direction: column;
+    }
+
+    .container {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width:65vw;
+    }
+
+    .btn-skip button {
+        width: 300px;
+        height: 25px;
+    }
+
+    button {
+        font-size: 16px;
+        width: 140px;
+        height: 25px;
+    }
+
+    body {
+        flex-direction: column;
+    }
+
+    img {
+        height: 30vh;
+        width: 60vw;
+        margin-right: 0px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    select {
+        width: 280px;
+        height: 35px;
+        padding-left: 30px;
+    }
+
+    select.select-option {
+        background-position: 15px 15px;
+        background-size: 10px;
+    }
+
+    select.select-option:focus {
+        background-position: 15px 15px;
+        background-size: 10px;
+    }
+
+    .InputRadio {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    input[type="radio"] {
+        width: 15px;
+        height: 15px;
     }
 }

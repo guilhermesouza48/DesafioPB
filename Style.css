@@ -14,6 +14,10 @@
     --hover : #FFFF7D;
 }
 
+.container {
+    width: 480px;
+    height: 600px;
+}
 
 button {
     background-color: var(--botoes);
@@ -38,6 +42,16 @@ body {
     height: 100vh;
 }
 
+.btn-back {
+    margin-right: 20px;
+}
 
+.btn-skip button {
+    width: 425px;
+    height: 35px;
+    margin-top: 15px;
+}
 
-
+.btn {
+    margin-top: 25px;
+}

@@ -20,6 +20,7 @@ input {
     border-radius: 20px;
     padding: 10px;
     font-size: 27px;
+    border-color: #475242 ;
 }
 
 input[type="number"] {

@@ -1,9 +1,18 @@
 h1 {
     font-size: 111px;
+    font-weight: 700;
 }
 
 .container {
     margin-left: 85px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+img {
+    height: 60rem;
 }
 
 .container h2 {
@@ -44,7 +53,7 @@ h2 {
     }
 
     img {
-        height: 450px;
         margin-right: 100px;
+        max-height: 30rem;
     }
 }

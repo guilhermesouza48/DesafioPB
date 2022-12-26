@@ -28,7 +28,6 @@ input[type="number"] {
 }
 
 
-
 img {
     margin-right: 50px;
     height: 60vh;
@@ -39,8 +38,10 @@ h2 {
     margin-bottom: 20px;
 }
 
-@media screen and (max-widht:480px) {
+@media screen and (max-width:480px) {
     input {
         border: #475242;
     }
+
+    
 }

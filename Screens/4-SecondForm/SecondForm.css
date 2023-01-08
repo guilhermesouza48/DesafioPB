@@ -49,8 +49,6 @@ select.select-option:focus {
     outline: 0;
 }
 
-
-
 h2 {
     margin-top: 35px;
 }
@@ -64,6 +62,8 @@ img {
 label {
     font-size: 800;
     line-height: 2;
+    display: flex;
+    align-items: center;
 }
 
 input[type="checkbox"] {
@@ -76,12 +76,12 @@ input[type="checkbox"] {
     height: 30px;
     border-radius: 50%;
     border: 0;
+    margin-right: 10px;
 }
 
 input[type="checkbox"]:checked {
     opacity: 1;
 }
-
 
 @media screen and (max-width:480px) {
 

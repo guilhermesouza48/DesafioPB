@@ -64,6 +64,8 @@ img {
 label {
     font-size: 800;
     line-height: 2;
+    display: flex;
+    align-items: center;
 }
 
 input[type="radio"] {
@@ -76,6 +78,7 @@ input[type="radio"] {
     height: 30px;
     border-radius: 50%;
     border: 0;
+    margin-right: 10px;
 }
 
 input[type="radio"]:checked {
